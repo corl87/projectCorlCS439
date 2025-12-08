@@ -10,8 +10,8 @@ Adding a door tile was not difficult, i simply renamed the water tiles to door a
 My main issue was trying to change the tileset using one scene. The way I got this project to work was to create multiple scenes that pass attributes such as player powerups to each other.
 I added powerups which change stats of the player such as spread and how fast they can shoot. I added multiple enemies to make the game get harder as you complete levels.
 Getting the enemies to spawn properly was another issue, since so many different enemies are created at once and they couldnt all have the same values. I used similar logic to my waveTek project in order to properly spawn enemies.
-I wanted the final level to have higher health enemies, but I didn't want to make new enemy sprites for each new section of health. My solution was to 
+I wanted the final level to have higher health enemies, but I didn't want to make new enemy sprites for each new section of health. My solution was to change the logic from acessing the array directly from the ammount of health, to calculating the % of max health and choosing the array element from that. 
 
-
+Initally, the powerups did not transfer between levels since I made a new player for each level. I found it was possible to pass the players powerups from the previous level to start the next level.
 
 A lot of my time in this project was spent trying to get multiple levels working. 
