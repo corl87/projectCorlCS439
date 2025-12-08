@@ -17,6 +17,8 @@ Initally, the powerups did not transfer between levels since I made a new player
 
 A lot of my time in this project was spent trying to get multiple levels working. In solving this problem I created a new, lesser problem of you cannot close out of the game with 1 button, you must exit each level individually. I was able to detect when an enemy touches the player, but wasn't able to end the game from there. In it's current state, it is constantly printing the list of enemies that have made contact with the player. The goal of this is that when the list is empty the game runs normal, but when an enemy gets added to the list, we stop all levels.
 
+Some of the image sprites are from open game art, cited at the beginning of the program. I created the player and door sprites myself using GIMP.
+
 Using this project, you could make many differnt RPG style games, but level editing is probably this project's weakest section. Feel free to use my code to teach new students or as a demo, and I would love to see this game working on an arcade machine. 
 
 In order to run the project, be sure all assets are present in the same folder as the main projectCorl file. In order to play the game, run projectCorl.
