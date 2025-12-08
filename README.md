@@ -23,4 +23,4 @@ Using this project, you could make many differnt RPG style games, but level edit
 
 In order to run the project, be sure all assets are present in the same folder as the main projectCorl file. In order to play the game, run projectCorl.
 
-Since I was not in class during presentations, I will upload a video called demo where I will present my project.
+Since I was not in class during presentations, I will upload a video called KyleDille439Project.mkv where I will present my project.
