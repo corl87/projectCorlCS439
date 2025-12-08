@@ -15,7 +15,7 @@ I wanted the final level to have higher health enemies, but I didn't want to mak
 
 Initally, the powerups did not transfer between levels since I made a new player for each level. I found it was possible to pass the players powerups from the previous level to start the next level.
 
-A lot of my time in this project was spent trying to get multiple levels working. 
+A lot of my time in this project was spent trying to get multiple levels working. In solving this problem I created a new, lesser problem of you cannot close out of the game with 1 button, you must exit each level individually. I was able to detect when an enemy touches the player, but wasn't able to end the game from there. 
 
 Using this project, you could make many differnt RPG style games, but level editing is probably this project's weakest section. Feel free to use my code to teach new students or as a demo, and I would love to see this game working on an arcade machine. 
 
