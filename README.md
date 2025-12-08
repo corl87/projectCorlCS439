@@ -1,6 +1,6 @@
 # projectCorlCS439
 
-The goal of this project is to make a top down twin stick shooter game that works on the arcade machines.
+The goal of this project is to make a top down twin stick shooter game that works on the arcade machines (no mouse).
 The game will be written in python using simpleGE
 
 To start my project I used the tileset example earlier shown in class. It was pretty easy to get a custom character model, impliment bullets, and a basic enemy which moves towards the player.
@@ -16,6 +16,8 @@ I wanted the final level to have higher health enemies, but I didn't want to mak
 Initally, the powerups did not transfer between levels since I made a new player for each level. I found it was possible to pass the players powerups from the previous level to start the next level.
 
 A lot of my time in this project was spent trying to get multiple levels working. 
+
+Using this project, you could make many differnt RPG style games, but level editing is probably this project's weakest section. Feel free to use my code to teach new students or as a demo, and I would love to see this game working on an arcade machine. 
 
 In order to run the project, be sure all assets are present in the same folder as the main projectCorl file. In order to play the game, run projectCorl.
 
